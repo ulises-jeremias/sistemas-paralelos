@@ -7,7 +7,7 @@ Entrega correspondiente al trabajo de **_Programación con memoria compartida_**
 ## Alumnos
 
 -   Ulises Jeremias Cornejo Fandos 13566/7
--   Federico Ramón Gasquez
+-   Federico Ramón Gasquez 13598/6
 
 ## Ejercicio 1
 
@@ -17,14 +17,14 @@ Entrega correspondiente al trabajo de **_Programación con memoria compartida_**
 
 Dadas las matrices de nxn._B_ y _L_ se obtienen _b_ y _l_ en iteraciones distintas,
 dadas los diferentes espacios de memoria designado para cada una. Luego,
-se calculan las matrices _AB_, _BD_ siendo estas _AB = A x B_, _BD = B x D_,
+se calculan las matrices _AB_, _BD_ siendo estas `AB = A x B`, `BD = B x D`,
 utilizando las mismas iteraciones para resolver la multiplicación por bloques,
 permitiendo aprovechar la locación temporal y espacial en la memoria caché.
-Luego, se calcula _ABC = AB x C_ utilizando nuevamente el método de
+Luego, se calcula `ABC = AB x C` utilizando nuevamente el método de
 multiplicación por bloques. Se resuelven por separado las siguientes operaciones,
-_ABC &lt;- l.ABC_ y _L &lt;- b.L_. A continuación, se calcula _R = L.BD_, utilizando
+`ABC <= l.ABC` y `L <= b.L`. A continuación, se calcula `R = L.BD`, utilizando
 el método convencional de multiplicación de una matriz triangular por una matriz
-cualquiera. Finalmente, se calcula _R &lt;- ABC + R_.
+cualquiera. Finalmente, se calcula `R <= ABC + R`.
 
 -   **Pthread**
 
@@ -51,7 +51,7 @@ cuando se procesa la matriz triangular.
 Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
 Los tiempos dispuestos en las siguientes tablas están medidos en segundos.
 La computadora utilizada para tomar los tiempos de ejecución de este ejercicio
-fue una de las computadoras de la sala de PC de postgrado.
+cuenta con un procesador `AMD fx 8350 eight-core processor - 4.0GHz`.
 
 -   **2 hilos**
 
