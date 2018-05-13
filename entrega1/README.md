@@ -53,57 +53,57 @@ Los tiempos dispuestos en las siguientes tablas están medidos en segundos.
 La computadora utilizada para tomar los tiempos de ejecución de este ejercicio
 cuenta con un procesador `AMD fx 8350 eight-core processor - 4.0GHz`.
 
--   **2 hilos**
+##### 2 hilos
 
-    -   **Tiempos**
+###### Tiempos
 
-    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
-    | :-----------------: | ----------------: | -------------: | ------------: |
-    |          512        |            2.3829 |          1.348 |          1.56 |
-    |         1024        |            19.063 |          9.848 |         11.75 |
-    |         2048        |             154.4 |          80.55 |          98.5 |
+| Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+| :-----------------: | ----------------: | -------------: | ------------: |
+|          512        |            2.3829 |          1.348 |          1.56 |
+|         1024        |            19.063 |          9.848 |         11.75 |
+|         2048        |             154.4 |          80.55 |          98.5 |
 
-    -   **Speedup**
+###### Speedup
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |          512        |    1.768 |  1.528 |
-    |         1024        |    1.935 |  1.622 |
-    |         2048        |    1.917 |  1.568 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|          512        |    1.768 |  1.528 |
+|         1024        |    1.935 |  1.622 |
+|         2048        |    1.917 |  1.568 |
 
-    -   **Eficiencia**
+###### Eficiencia
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |          512        |    0.884 |  0.764 |
-    |         1024        |    0.968 |  0.811 |
-    |         2048        |    0.959 |  0.784 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|          512        |    0.884 |  0.764 |
+|         1024        |    0.968 |  0.811 |
+|         2048        |    0.959 |  0.784 |
 
--   **4 hilos**
+##### 4 hilos
 
-    -   **Tiempos**
+###### Tiempos
 
-    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
-    | :-----------------: | ----------------: | -------------: | ------------: |
-    |          512        |            2.3829 |          0.682 |         0.783 |
-    |         1024        |            19.063 |          5.255 |         11.75 |
-    |         2048        |             154.4 |         42.975 |          49.5 |
+| Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+| :-----------------: | ----------------: | -------------: | ------------: |
+|          512        |            2.3829 |          0.682 |         0.783 |
+|         1024        |            19.063 |          5.255 |         11.75 |
+|         2048        |             154.4 |         42.975 |          49.5 |
 
-    -   **Speedup**
+###### Speedup
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |          512        |    3.494 |  3.043 |
-    |         1024        |    3.628 |  1.622 |
-    |         2048        |    3.593 |  3.119 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|          512        |    3.494 |  3.043 |
+|         1024        |    3.628 |  1.622 |
+|         2048        |    3.593 |  3.119 |
 
-    -   **Eficiencia**
+###### Eficiencia
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |          512        |    0.874 |  0.761 |
-    |         1024        |    0.907 |  0.406 |
-    |         2048        |    0.898 |  0.779 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|          512        |    0.874 |  0.761 |
+|         1024        |    0.907 |  0.406 |
+|         2048        |    0.898 |  0.779 |
 
 
 ## Ejercicio 2
@@ -134,48 +134,48 @@ Los tiempos dispuestos en las siguientes tablas están medidos en segundos.
 La computadora utilizada para tomar los tiempos de ejecución de este ejercicio
 fue una de las computadoras de la sala de PC de postgrado.
 
--   **2 hilos**
+##### 2 hilos
 
-    -   **Tiempos**
+###### Tiempos
 
-    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
-    | :-----------------: | ----------------: | -------------: | ------------: |
-    |         2^27        |         0.3766822 |      0.3167518 |      0.314521 |
-    |         2^29        |             1.341 |           0.75 |          0.79 |
+| Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+| :-----------------: | ----------------: | -------------: | ------------: |
+|         2^27        |         0.3766822 |      0.3167518 |      0.314521 |
+|         2^29        |             1.341 |           0.75 |          0.79 |
 
-    -   **Speedup**
+###### Speedup
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |         2^27        |    1.189 |  1.198 |
-    |         2^29        |    1.788 |   1.94 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|         2^27        |    1.189 |  1.198 |
+|         2^29        |    1.788 |   1.94 |
 
-    -   **Eficiencia**
+###### Eficiencia
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |         2^27        |    0.594 |  0.599 |
-    |         2^29        |     0.89 |   0.97 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|         2^27        |    0.594 |  0.599 |
+|         2^29        |     0.89 |   0.97 |
 
--   **4 hilos**
+##### 4 hilos
 
-    -   **Tiempos**
+###### Tiempos
 
-    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
-    | :-----------------: | ----------------: | -------------: | ------------: |
-    |         2^27        |         0.3766822 |       0.367245 |      0.357245 |
-    |         2^29        |             1.341 |           0.43 |          0.36 |
+| Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+| :-----------------: | ----------------: | -------------: | ------------: |
+|         2^27        |         0.3766822 |       0.367245 |      0.357245 |
+|         2^29        |             1.341 |           0.43 |          0.36 |
 
-    -   **Speedup**
+###### Speedup
 
-    | Longitud del vector | Pthreads |  OpenMP |
-    | :-----------------: | -------: | -----: |
-    |         2^27        |   1.0257 |  1.0544 |
-    |         2^29        |     3.11 |   3.725 |
+| Longitud del vector | Pthreads |  OpenMP |
+| :-----------------: | -------: | -----: |
+|         2^27        |   1.0257 |  1.0544 |
+|         2^29        |     3.11 |   3.725 |
 
-    -   **Eficiencia**
+###### Eficiencia
 
-    | Longitud del vector | Pthreads | OpenMP |
-    | :-----------------: | -------: | -----: |
-    |         2^27        |    0.256 |  0.263 |
-    |         2^29        |     0.77 |   0.93 |
+| Longitud del vector | Pthreads | OpenMP |
+| :-----------------: | -------: | -----: |
+|         2^27        |    0.256 |  0.263 |
+|         2^29        |     0.77 |   0.93 |

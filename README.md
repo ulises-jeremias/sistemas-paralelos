@@ -5,7 +5,7 @@ Entregas de Sistemas Paralelos, Facultad de Informatica, UNLP.
 
 Puede verificarse el buen funcionamiento de la primer entrega de la siguiente forma.
 
-```c
+```bash
 $ git clone https://github.com/ulises-jeremias/sistemas-paralelos.git
 $ cd sistemas-paralelos
 $ cd entrega1
