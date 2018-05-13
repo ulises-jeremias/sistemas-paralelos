@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Entrega correspondiente al trabajo de __Programación con memoria compartida__.
+Entrega correspondiente al trabajo de **Programación con memoria compartida**.
 
 ## Alumnos
 
@@ -15,7 +15,7 @@ Entrega correspondiente al trabajo de __Programación con memoria compartida__.
 
 -   **Secuencial**
 
-Dadas las matrices de nxn, _B_ y _L_ se obtienen _b_ y _l_ en iteraciones distintas,
+Dadas las matrices de nxn._B_ y _L_ se obtienen _b_ y _l_ en iteraciones distintas,
 dadas los diferentes espacios de memoria designado para cada una. Luego,
 se calculan las matrices _AB_, _BD_ siendo estas _AB = A x B_, _BD = B x D_,
 utilizando las mismas iteraciones para resolver la multiplicación por bloques,
@@ -66,3 +66,53 @@ Se utiliza la primitiva `parallel for` para repartir las iteraciones
 entre los hilos y la primitiva `reduction` de la suma, _reduction(+)_, de la
 variable contador para asegurar que el resultado final de la suma quede
 la variable indicada.
+
+### Métricas
+
+Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
+
+-   **2 hilos**
+
+    -   **Tiempos**
+
+    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+    | :-----------------: | ----------------: | -------------: | ------------: |
+    |         2^27        |         0.3766822 |      0.3167518 |      0.314521 |
+    |         2^29        |             1.341 |           0.75 |          0.79 |
+
+    -   **Speedup**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |         2^27        |    1.189 |  1.198 |
+    |         2^29        |    1.788 |   1.94 |
+
+    -   **Eficiencia**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |         2^27        |          |        |
+    |         2^29        |     0.89 |   0.97 |
+
+-   **4 hilos**
+
+    -   **Tiempos**
+
+    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+    | :-----------------: | ----------------: | -------------: | ------------: |
+    |         2^27        |         0.3766822 |       0.367245 |      0.357245 |
+    |         2^29        |             1.341 |           0.43 |          0.36 |
+
+    -   **Speedup**
+
+    | Longitud del vector | Pthreads |  OpenMP |
+    | :-----------------: | -------: | -----: |
+    |         2^27        |   1.0257 |  1.0544 |
+    |         2^29        |     3.11 |   3.725 |
+
+    -   **Eficiencia**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |         2^27        |          |        |
+    |         2^29        |     0.77 |   0.93 |
