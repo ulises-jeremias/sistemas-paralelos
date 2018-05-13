@@ -46,6 +46,66 @@ cantidad de trabajo entre los hilos. Para no tener el mismo problema
 de desbalance de carga, como en pthread, se usa un `schedule dynamic`
 cuando se procesa la matriz triangular.
 
+### Métricas
+
+Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
+Los tiempos dispuestos en las siguientes tablas están medidos en segundos.
+La computadora utilizada para tomar los tiempos de ejecución de este ejercicio
+fue una de las computadoras de la sala de PC de postgrado.
+
+-   **2 hilos**
+
+    -   **Tiempos**
+
+    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+    | :-----------------: | ----------------: | -------------: | ------------: |
+    |          512        |            2.3829 |          1.348 |          1.56 |
+    |         1024        |            19.063 |          9.848 |         11.75 |
+    |         2048        |             154.4 |          80.55 |          98.5 |
+
+    -   **Speedup**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |          512        |    1.768 |  1.528 |
+    |         1024        |    1.935 |  1.622 |
+    |         2048        |    1.917 |  1.568 |
+
+    -   **Eficiencia**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |          512        |    0.884 |  0.764 |
+    |         1024        |    0.968 |  0.811 |
+    |         2048        |    0.959 |  0.784 |
+
+-   **4 hilos**
+
+    -   **Tiempos**
+
+    | Longitud del vector | Tiempo secuencial | Tiempo pthread | Tiempo openmp |
+    | :-----------------: | ----------------: | -------------: | ------------: |
+    |          512        |            2.3829 |          0.682 |         0.783 |
+    |         1024        |            19.063 |          5.255 |         11.75 |
+    |         2048        |             154.4 |         42.975 |          49.5 |
+
+    -   **Speedup**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |          512        |    3.494 |  3.043 |
+    |         1024        |    3.628 |  1.622 |
+    |         2048        |    3.593 |  3.119 |
+
+    -   **Eficiencia**
+
+    | Longitud del vector | Pthreads | OpenMP |
+    | :-----------------: | -------: | -----: |
+    |          512        |    0.874 |  0.761 |
+    |         1024        |    0.907 |  0.406 |
+    |         2048        |    0.898 |  0.779 |
+
+
 ## Ejercicio 2
 
 ### Idea general
@@ -70,6 +130,9 @@ la variable indicada.
 ### Métricas
 
 Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
+Los tiempos dispuestos en las siguientes tablas están medidos en segundos.
+La computadora utilizada para tomar los tiempos de ejecución de este ejercicio
+fue una de las computadoras de la sala de PC de postgrado.
 
 -   **2 hilos**
 
