@@ -91,7 +91,7 @@ Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
 
     | Longitud del vector | Pthreads | OpenMP |
     | :-----------------: | -------: | -----: |
-    |         2^27        |          |        |
+    |         2^27        |    0.594 |  0.599 |
     |         2^29        |     0.89 |   0.97 |
 
 -   **4 hilos**
@@ -114,5 +114,5 @@ Las métricas mostradas corresponden a promedios de un conjunto de 5 mediciones.
 
     | Longitud del vector | Pthreads | OpenMP |
     | :-----------------: | -------: | -----: |
-    |         2^27        |          |        |
+    |         2^27        |    0.256 |  0.263 |
     |         2^29        |     0.77 |   0.93 |
