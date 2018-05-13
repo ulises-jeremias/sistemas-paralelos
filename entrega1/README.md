@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Entrega correspondiente al trabajo de **Programación con memoria compartida**.
+Entrega correspondiente al trabajo de **_Programación con memoria compartida_**.
 
 ## Alumnos
 
