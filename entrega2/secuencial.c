@@ -5,18 +5,18 @@
 
 int N, *positions;
 
-/* int xi */
+/* int _yi */
 #define ROWS_LOOP(_b, _l, block_) do {            \
-                int _yj;                         \
-                for (_yj = _b; _yj < _l; _yj++)  \
+                int _yi;                         \
+                for (_yi = _b; _yi < _l; _yi++)  \
                 { block_; }                      \
 } while(0);
 
 #define BOARD_LOOP(_b, _l, block_a_, block_b_) do {                    \
-                int _xi, _yj;                                         \
-                for (_xi = _b; _xi < _l; _xi++)                       \
+                int _xj, _yi;                                         \
+                for (_xj = _b; _xj < _l; _xj++)                       \
                 {                                                     \
-                        for (_yj = 0; _yj < _l; _yj++) { block_a_; }  \
+                        for (_yi = 0; _yi < _l; _yi++) { block_a_; }  \
                         {block_b_;}                                   \
                 }                                                     \
 } while(0);
@@ -41,8 +41,8 @@ dwalltime()
 void
 show_short_board()
 {
-        ROWS_LOOP(0, nqueens->size, {
-                printf("%d ", positions[_yj]);
+        ROWS_LOOP(0, N, {
+                printf("%d ", positions[_yi]);
         });
 
         printf("\n");
@@ -54,8 +54,8 @@ show_short_board()
 void
 show_full_board()
 {
-        BOARD_LOOP(0, nqueens->size, {
-                (positions[_yj] == _xi) ?
+        BOARD_LOOP(0, N, {
+                (positions[_yi] == _xj) ?
                 printf("Q ") :
                 printf(". ");
         }, {
@@ -71,7 +71,7 @@ int
 check_place(int column, int row)
 {
         ROWS_LOOP(0, row, {
-                if (positions[_yj] == column || (positions[_yj] - _yj) == (column - row) || (positions[_yj] + _yj) == (column + row))
+                if (positions[_yi] == column || (positions[_yi] - _yi) == (column - row) || (positions[_yi] + _yi) == (column + row))
                 {
                         return 0;
                 }
@@ -85,7 +85,7 @@ main(int argc, char const *argv[])
 {
         double timetick;
         int solutions = 0;
-        int xi = 0, yj = 0, k = 0;
+        int xj = 0, yi = 0, k = 0;
         int flag = 1;
 
         N = (int) atoi(argv[1]);
@@ -95,20 +95,20 @@ main(int argc, char const *argv[])
 
         timetick = dwalltime();
 
-        for (; 0 <= yj;)
+        for (; 0 <= yi;)
         {
                 if (flag) //If no backtrack occured
-                        xi = 0;
+                        xj = 0;
 
-                for (; xi < N && !check_place(xi, yj); xi++);
+                for (; xj < N && !check_place(xj, yi); xj++);
 
-                if (xi < N)
+                if (xj < N)
                 {
-                        positions[yj] = xi;
-                        if ((yj + 1) == N)
+                        positions[yi] = xj;
+                        if ((yi + 1) == N)
                         {
                                 solutions++;
-                                xi = N;
+                                xj = N;
 
                                 #ifdef DEBUG
                                 show_short_board();
@@ -117,15 +117,15 @@ main(int argc, char const *argv[])
                         }
                         else
                         {
-                                yj++;
+                                yi++;
                                 flag = 1;
                         }
                 }
 
-                if (xi == N)
+                if (xj == N)
                 {
-                        if (yj-- >= 0) {
-                                xi = positions[yj] + 1;
+                        if (yi-- >= 0) {
+                                xj = positions[yi] + 1;
                         }
 
                         flag = 0;
