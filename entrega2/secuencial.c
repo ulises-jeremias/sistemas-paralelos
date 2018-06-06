@@ -6,19 +6,19 @@
 int N, *positions;
 
 /* int xi */
-#define ROWS_LOOP(_b, _l, block_) do {         \
-                int _yj;                       \
+#define ROWS_LOOP(_b, _l, block_) do {            \
+                int _yj;                         \
                 for (_yj = _b; _yj < _l; _yj++)  \
-                { block_; }                   \
+                { block_; }                      \
 } while(0);
 
-#define BOARD_LOOP(_b, _l, block_a_, block_b_) do {                 \
-                int _xi, _yj;                                        \
+#define BOARD_LOOP(_b, _l, block_a_, block_b_) do {                    \
+                int _xi, _yj;                                         \
                 for (_xi = _b; _xi < _l; _xi++)                       \
-                {                                                  \
+                {                                                     \
                         for (_yj = 0; _yj < _l; _yj++) { block_a_; }  \
-                        {block_b_;}                                \
-                }                                                  \
+                        {block_b_;}                                   \
+                }                                                     \
 } while(0);
 
 double
