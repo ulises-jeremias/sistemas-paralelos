@@ -1,0 +1,6 @@
+Process: 2, Solutions: 2668980, Time in seconds 90.010316s
+Process: 3, Solutions: 2698665, Time in seconds 87.452117s
+Process: 0, Solutions: 6651819, Time in seconds 219.745640s
+Total time in seconds 221.225224s
+Found 14772512 solutions
+Process: 1, Solutions: 2753048, Time in seconds 90.560304s

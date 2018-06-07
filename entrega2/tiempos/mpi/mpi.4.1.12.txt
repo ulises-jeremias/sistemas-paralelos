@@ -1,0 +1,30 @@
+Process: 1, Solutions: 2736, Time in seconds 0.061309s
+Process: 3, Solutions: 2355, Time in seconds 0.058380s
+Process: 0, Solutions: 6432, Time in seconds 0.151225s
+Total time in seconds 0.151634s
+Found 14200 solutions
+Process: 2, Solutions: 2677, Time in seconds 0.064039s
+Process: 1, Solutions: 2332, Time in seconds 0.064045s
+Process: 2, Solutions: 2667, Time in seconds 0.063426s
+Process: 0, Solutions: 6604, Time in seconds 0.157715s
+Total time in seconds 0.158185s
+Found 14200 solutions
+Process: 3, Solutions: 2597, Time in seconds 0.064133s
+Process: 1, Solutions: 2700, Time in seconds 0.047215s
+Process: 3, Solutions: 2419, Time in seconds 0.046505s
+Process: 0, Solutions: 6624, Time in seconds 0.116011s
+Total time in seconds 0.116403s
+Found 14200 solutions
+Process: 2, Solutions: 2457, Time in seconds 0.047132s
+Process: 1, Solutions: 2546, Time in seconds 0.049759s
+Process: 3, Solutions: 2701, Time in seconds 0.047225s
+Process: 0, Solutions: 6607, Time in seconds 0.118160s
+Total time in seconds 0.118552s
+Found 14200 solutions
+Process: 2, Solutions: 2346, Time in seconds 0.048235s
+Process: 2, Solutions: 2718, Time in seconds 0.057633s
+Process: 3, Solutions: 2710, Time in seconds 0.057410s
+Process: 0, Solutions: 6102, Time in seconds 0.138608s
+Total time in seconds 0.139003s
+Found 14200 solutions
+Process: 1, Solutions: 2670, Time in seconds 0.063093s

@@ -1,0 +1,50 @@
+Process: 1, Solutions: 94, Time in seconds 0.001088s
+Process: 3, Solutions: 79, Time in seconds 0.000991s
+Process: 2, Solutions: 113, Time in seconds 0.001101s
+Process: 5, Solutions: 59, Time in seconds 0.000808s
+Process: 0, Solutions: 161, Time in seconds 0.002091s
+Total time in seconds 0.022770s
+Found 724 solutions
+Process: 7, Solutions: 49, Time in seconds 0.000660s
+Process: 6, Solutions: 94, Time in seconds 0.000827s
+Process: 4, Solutions: 75, Time in seconds 0.000917s
+Process: 3, Solutions: 100, Time in seconds 0.001032s
+Process: 1, Solutions: 73, Time in seconds 0.001104s
+Process: 2, Solutions: 94, Time in seconds 0.001041s
+Process: 5, Solutions: 50, Time in seconds 0.000803s
+Process: 7, Solutions: 67, Time in seconds 0.000769s
+Process: 6, Solutions: 103, Time in seconds 0.000870s
+Process: 0, Solutions: 157, Time in seconds 0.001963s
+Total time in seconds 0.032979s
+Found 724 solutions
+Process: 4, Solutions: 80, Time in seconds 0.001024s
+Process: 1, Solutions: 82, Time in seconds 0.001075s
+Process: 2, Solutions: 113, Time in seconds 0.001039s
+Process: 3, Solutions: 68, Time in seconds 0.001031s
+Process: 5, Solutions: 58, Time in seconds 0.000762s
+Process: 0, Solutions: 174, Time in seconds 0.002014s
+Total time in seconds 0.033216s
+Found 724 solutions
+Process: 7, Solutions: 52, Time in seconds 0.000829s
+Process: 6, Solutions: 70, Time in seconds 0.000813s
+Process: 4, Solutions: 107, Time in seconds 0.000934s
+Process: 1, Solutions: 71, Time in seconds 0.000963s
+Process: 2, Solutions: 96, Time in seconds 0.001023s
+Process: 3, Solutions: 104, Time in seconds 0.001042s
+Process: 5, Solutions: 50, Time in seconds 0.000800s
+Process: 0, Solutions: 157, Time in seconds 0.002050s
+Total time in seconds 0.043557s
+Found 724 solutions
+Process: 6, Solutions: 103, Time in seconds 0.000867s
+Process: 7, Solutions: 67, Time in seconds 0.000770s
+Process: 4, Solutions: 76, Time in seconds 0.000933s
+Process: 1, Solutions: 76, Time in seconds 0.001049s
+Process: 2, Solutions: 110, Time in seconds 0.000997s
+Process: 3, Solutions: 83, Time in seconds 0.001004s
+Process: 5, Solutions: 52, Time in seconds 0.000833s
+Process: 7, Solutions: 75, Time in seconds 0.000789s
+Process: 6, Solutions: 93, Time in seconds 0.000857s
+Process: 0, Solutions: 159, Time in seconds 0.002088s
+Total time in seconds 0.033290s
+Found 724 solutions
+Process: 4, Solutions: 76, Time in seconds 0.000959s

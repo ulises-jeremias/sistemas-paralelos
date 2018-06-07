@@ -1,0 +1,50 @@
+Process: 1, Solutions: 8374, Time in seconds 0.166866s
+Process: 5, Solutions: 8633, Time in seconds 0.178510s
+Process: 7, Solutions: 7011, Time in seconds 0.153338s
+Process: 6, Solutions: 8417, Time in seconds 0.168290s
+Process: 2, Solutions: 8584, Time in seconds 0.170306s
+Process: 3, Solutions: 6866, Time in seconds 0.161890s
+Process: 0, Solutions: 17295, Time in seconds 0.385357s
+Total time in seconds 0.428755s
+Found 73712 solutions
+Process: 4, Solutions: 8532, Time in seconds 0.178548s
+Process: 2, Solutions: 8478, Time in seconds 0.168864s
+Process: 3, Solutions: 8518, Time in seconds 0.177238s
+Process: 5, Solutions: 9005, Time in seconds 0.165688s
+Process: 0, Solutions: 17448, Time in seconds 0.396844s
+Total time in seconds 0.419270s
+Found 73712 solutions
+Process: 1, Solutions: 6418, Time in seconds 0.172461s
+Process: 7, Solutions: 8921, Time in seconds 0.159379s
+Process: 6, Solutions: 7076, Time in seconds 0.155439s
+Process: 4, Solutions: 7848, Time in seconds 0.165953s
+Process: 1, Solutions: 8392, Time in seconds 0.180040s
+Process: 5, Solutions: 8637, Time in seconds 0.156864s
+Process: 3, Solutions: 8480, Time in seconds 0.168591s
+Process: 0, Solutions: 16389, Time in seconds 0.396084s
+Total time in seconds 0.426915s
+Found 73712 solutions
+Process: 2, Solutions: 7301, Time in seconds 0.171768s
+Process: 7, Solutions: 8189, Time in seconds 0.165450s
+Process: 4, Solutions: 7265, Time in seconds 0.166127s
+Process: 6, Solutions: 9059, Time in seconds 0.169532s
+Process: 2, Solutions: 8478, Time in seconds 0.168669s
+Process: 3, Solutions: 8518, Time in seconds 0.178055s
+Process: 5, Solutions: 9005, Time in seconds 0.165681s
+Process: 0, Solutions: 17448, Time in seconds 0.397055s
+Total time in seconds 0.430292s
+Found 73712 solutions
+Process: 1, Solutions: 6418, Time in seconds 0.172437s
+Process: 7, Solutions: 8921, Time in seconds 0.159235s
+Process: 4, Solutions: 7848, Time in seconds 0.166209s
+Process: 6, Solutions: 7076, Time in seconds 0.155562s
+Process: 5, Solutions: 9214, Time in seconds 0.180268s
+Process: 1, Solutions: 8463, Time in seconds 0.165983s
+Process: 7, Solutions: 8510, Time in seconds 0.160277s
+Process: 4, Solutions: 7191, Time in seconds 0.166086s
+Process: 6, Solutions: 6854, Time in seconds 0.163912s
+Process: 3, Solutions: 6664, Time in seconds 0.157406s
+Process: 2, Solutions: 8409, Time in seconds 0.176027s
+Process: 0, Solutions: 18407, Time in seconds 0.400167s
+Total time in seconds 0.432997s
+Found 73712 solutions

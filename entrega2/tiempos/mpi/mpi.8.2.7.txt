@@ -1,0 +1,50 @@
+Process: 1, Solutions: 7, Time in seconds 0.000015s
+Process: 2, Solutions: 5, Time in seconds 0.000014s
+Process: 3, Solutions: 6, Time in seconds 0.000012s
+Process: 5, Solutions: 2, Time in seconds 0.000005s
+Process: 0, Solutions: 9, Time in seconds 0.000029s
+Total time in seconds 0.031207s
+Found 40 solutions
+Process: 7, Solutions: 3, Time in seconds 0.000004s
+Process: 6, Solutions: 5, Time in seconds 0.000011s
+Process: 4, Solutions: 3, Time in seconds 0.000006s
+Process: 1, Solutions: 5, Time in seconds 0.000014s
+Process: 2, Solutions: 7, Time in seconds 0.000015s
+Process: 3, Solutions: 6, Time in seconds 0.000014s
+Process: 0, Solutions: 11, Time in seconds 0.000020s
+Total time in seconds 0.041343s
+Found 40 solutions
+Process: 5, Solutions: 2, Time in seconds 0.000005s
+Process: 6, Solutions: 4, Time in seconds 0.000007s
+Process: 7, Solutions: 3, Time in seconds 0.000004s
+Process: 4, Solutions: 2, Time in seconds 0.000004s
+Process: 1, Solutions: 6, Time in seconds 0.000015s
+Process: 2, Solutions: 5, Time in seconds 0.000017s
+Process: 3, Solutions: 7, Time in seconds 0.000014s
+Process: 0, Solutions: 10, Time in seconds 0.000017s
+Total time in seconds 0.026718s
+Found 40 solutions
+Process: 5, Solutions: 2, Time in seconds 0.000005s
+Process: 7, Solutions: 3, Time in seconds 0.000004s
+Process: 4, Solutions: 3, Time in seconds 0.000009s
+Process: 6, Solutions: 4, Time in seconds 0.000008s
+Process: 1, Solutions: 6, Time in seconds 0.000013s
+Process: 3, Solutions: 6, Time in seconds 0.000013s
+Process: 2, Solutions: 6, Time in seconds 0.000020s
+Process: 5, Solutions: 2, Time in seconds 0.000005s
+Process: 0, Solutions: 10, Time in seconds 0.000021s
+Total time in seconds 0.030930s
+Found 40 solutions
+Process: 7, Solutions: 4, Time in seconds 0.000006s
+Process: 6, Solutions: 4, Time in seconds 0.000008s
+Process: 4, Solutions: 2, Time in seconds 0.000004s
+Process: 1, Solutions: 6, Time in seconds 0.000014s
+Process: 2, Solutions: 6, Time in seconds 0.000017s
+Process: 3, Solutions: 7, Time in seconds 0.000024s
+Process: 0, Solutions: 10, Time in seconds 0.000018s
+Total time in seconds 0.040745s
+Found 40 solutions
+Process: 5, Solutions: 2, Time in seconds 0.000005s
+Process: 7, Solutions: 3, Time in seconds 0.000012s
+Process: 4, Solutions: 2, Time in seconds 0.000005s
+Process: 6, Solutions: 4, Time in seconds 0.000008s
