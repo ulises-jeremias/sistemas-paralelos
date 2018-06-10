@@ -1,0 +1,95 @@
+N = 6
+Process: 0, 0.000003s
+Process: 1, 0.000003s
+Process: 2, 0.000006s
+Process: 3, 0.000003s
+Process: 4, 0.000002s
+Process: 5, 0.000004s
+Process: 6, 0.000003s
+Process: 7, 0.000001s
+
+Total time in seconds 0.030533s
+
+N = 10
+Process: 0, 0.002091s
+Process: 1, 0.001088s
+Process: 2, 0.001101s
+Process: 3, 0.000991s
+Process: 4, 0.000917s
+Process: 5, 0.000808s
+Process: 6, 0.000827s
+Process: 7, 0.000660s
+
+Total time in seconds 0.022770s
+
+N = 11
+Process: 0, 0.010764s
+Process: 1, 0.005022s
+Process: 2, 0.005264s
+Process: 3, 0.004987s
+Process: 4, 0.004957s
+Process: 5, 0.004514s
+Process: 6, 0.004953s
+Process: 7, 0.004467s
+
+Total time in seconds 0.031905s
+
+N = 12
+Process: 0, 0.063924s
+Process: 1, 0.028248s
+Process: 2, 0.029457s
+Process: 3, 0.026579s
+Process: 4, 0.029608s
+Process: 5, 0.026999s
+Process: 6, 0.026794s
+Process: 7, 0.025745s
+
+Total time in seconds 0.096253s
+
+N = 13
+Process: 0, 0.396844s
+Process: 1, 0.172461s
+Process: 2, 0.168864s
+Process: 3, 0.177238s
+Process: 4, 0.165953s
+Process: 5, 0.165688s
+Process: 6, 0.155439s
+Process: 7, 0.159379s
+
+Total time in seconds 0.419270s
+
+N = 14
+Process: 0, 2.645427s
+Process: 1, 1.077909s
+Process: 2, 0.993496s
+Process: 3, 1.127061s
+Process: 4, 1.050737s
+Process: 5, 1.127536s
+Process: 6, 1.142793s
+Process: 7, 1.022638s
+
+Total time in seconds 2.722888s
+
+N = 15
+Process: 0, 18.298897s
+Process: 1, 7.323542s
+Process: 2, 7.866377s
+Process: 3, 7.856986s
+Process: 4, 7.328011s
+Process: 5, 7.659668s
+Process: 6, 7.941578s
+Process: 7, 7.242807s
+
+Total time in seconds 18.377330s
+
+N = 16
+Process: 0, 135.750898s
+Process: 1, 54.430516s
+Process: 2, 53.509071s
+Process: 3, 55.168107s
+Process: 4, 55.482360s
+Process: 5, 55.824891s
+Process: 6, 53.690665s
+Process: 7, 56.902579s
+
+Total time in seconds 136.249856s

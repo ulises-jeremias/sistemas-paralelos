@@ -5,24 +5,6 @@
 #include <mpi.h>
 #include "include/util.h"
 
-typedef struct
-{
-        union
-        {
-                int d[2];
-                struct
-                {
-                        int x;
-                        int y;
-                };
-                struct
-                {
-                        int col;
-                        int row;
-                };
-        };
-} task_data_t;
-
 void master(int N, int rank, int cant_proc);
 void slave(int N, int rank, int cant_proc);
 
@@ -77,7 +59,8 @@ master(int N, int rank, int cant_proc)
                 if (xj < N)
                 {
                         task_data[1] = xj;
-                        MPI_Send(task_data, 2, MPI_INT, i, 1, MPI_COMM_WORLD);
+                        MPI_Recv(&recv, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
+                        MPI_Send(task_data, 2, MPI_INT, status.MPI_SOURCE, 1, MPI_COMM_WORLD);
                         xj++;
                         i++;
                 }
@@ -212,6 +195,7 @@ slave(int N, int rank, int cant_proc)
 
         memset(positions, ~0, N * sizeof(int));
 
+        MPI_Send(&xj, 1, MPI_INT, 0, 1, MPI_COMM_WORLD);
         MPI_Recv(task_data, 2, MPI_INT, 0, 1, MPI_COMM_WORLD, &status);
 
         for (; task_data[0] < N;)

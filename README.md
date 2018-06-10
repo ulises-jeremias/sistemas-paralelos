@@ -21,3 +21,24 @@ Los binarios generados se encuentran en los directorios
 luego de ejecutar el comando `make`. Pueden leerse los `CMakeLists.txt` de
 cada ejercicio de la entrega para ver los parametros de ejecucion utilizados
 en los tests.
+
+## Entrega 2
+
+Puede verificarse el buen funcionamiento de la primer entrega de la siguiente forma.
+
+```bash
+$ git clone https://github.com/ulises-jeremias/sistemas-paralelos.git
+$ cd sistemas-paralelos
+$ cd entrega2
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make
+$ ctest
+```
+
+Los binarios generados se encuentran en los directorios
+`entrega2/build/secuencial` y `entrega2/build/mpi` respectivamente
+luego de ejecutar el comando `make`. Puede leerse el `CMakeLists.txt` del
+ejercicio de la entrega para ver los parametros de ejecucion utilizados
+en los tests.

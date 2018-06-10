@@ -1,0 +1,63 @@
+N = 6
+Process: 0, 0.000011s
+Process: 1, 0.000004s
+Process: 2, 0.000005s
+Process: 3, 0.000005s
+
+Total time in seconds 0.000062s
+
+N = 10
+Process: 0, 0.003974s
+Process: 1, 0.001704s
+Process: 2, 0.001661s
+Process: 3, 0.001630s
+
+Total time in seconds 0.004124s
+
+N = 11
+Process: 0, 0.024843s
+Process: 1, 0.010286s
+Process: 2, 0.010747s
+Process: 3, 0.010798s
+
+Total time in seconds 0.025025s
+
+N = 12
+Process: 0, 0.116011s
+Process: 1, 0.047215s
+Process: 2, 0.047132s
+Process: 3, 0.046505s
+
+Total time in seconds 0.116403s
+
+N = 13
+Process: 0, 1.108826s
+Process: 1, 1.108826s
+Process: 2, 1.108826s
+Process: 3, 1.108826s
+
+Total time in seconds 0.727294s
+
+N = 14
+Process: 0, 4.558300s
+Process: 1, 1.970120s
+Process: 2, 1.883841s
+Process: 3, 1.833568s
+
+Total time in seconds 4.611232s
+
+N = 15
+Process: 0, 32.191049s
+Process: 1, 12.645365s
+Process: 2, 12.324262s
+Process: 3, 13.181028s
+
+Total time in seconds 32.229390s
+
+N = 16
+Process: 0, 233.492414s
+Process: 1, 96.204773s
+Process: 2, 95.526656s
+Process: 3, 92.814174s
+
+Total time in seconds 235.053206s
